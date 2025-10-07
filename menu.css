@@ -1,0 +1,270 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.title{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    color: black;
+    background-color: rgb(219, 64, 29);
+    padding: 5px, 10px;
+    text-align: center;
+    font-family: "Ms Madi", cursive;
+    font-weight: 600;
+}
+
+.home{
+    color: black;
+    top: 23px;
+    position: fixed;
+    left: 100px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.fishy{
+    text-align: center;
+    border: 3px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(160, 45, 6);
+    width: 370px;
+    height: 230px;
+    font-size: large;
+    position: fixed;
+    top: 100px;
+    font-family: "Story Script", sans-serif;
+
+}
+
+.fish{
+    text-align: center;
+    border: 3px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(160, 45, 6);
+    width: 370px;
+    height: 220px;
+    font-size: large;
+    position: fixed;
+    left: 380px;
+    top: 100px;
+    font-family: "Story Script", sans-serif;
+}
+
+.Bugs{
+    text-align: center;
+    border: 3px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(160, 45, 6);
+    width: 370px;
+    height: 220px;
+    font-size: large;
+    position: fixed;
+    left: 760px;
+    top: 100px;
+    font-family: "Story Script", sans-serif;
+}
+
+.Extra{
+    text-align: center;
+    border: 3px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(160, 45, 6);
+    width: 370px;
+    height: 220px;
+    font-size: large;
+    position: fixed;
+    top: 100px;
+    left: 1140px;
+    font-family: "Story Script", sans-serif;
+}
+
+.extra2{
+    text-align: center;
+    border: 3px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(160, 45, 6);
+    width: 370px;
+    height: 220px;
+    font-size: large;
+    position: fixed;
+    top: 450px;
+    font-family: "Story Script", sans-serif;
+}
+
+.Pie{
+    text-align: center;
+    border: 3px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(160, 45, 6);
+    width: 370px;
+    height: 220px;
+    font-size: large;
+    position: fixed;
+    left: 380px;
+    top: 450px;
+    font-family: "Story Script", sans-serif;
+}
+
+.Specs{
+    text-align: center;
+    border: 3px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(160, 45, 6);
+    width: 370px;
+    height: 220px;
+    font-size: large;
+    position: fixed;
+    left: 760px;
+    top: 450px;
+    font-family: "Story Script", sans-serif;
+}
+
+.Drink{
+    text-align: center;
+    border: 3px;
+    border-radius: 30px;
+    border-color: black;
+    background-color: rgb(160, 45, 6);
+    width: 370px;
+    height: 220px;
+    font-size: large;
+    position: fixed;
+    left: 1140px;
+    top: 450px;
+    font-family: "Story Script", sans-serif;
+}
+
+h7{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+}
+
+
+h8{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+}
+
+h9{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+}
+
+h10{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+}
+
+h11{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+}
+
+h12{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+}
+
+h13{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+}
+
+h14{
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 1000;
+    font-family: "Caveat", cursive;
+}
+
+@media(max-width:1080px){
+
+.title{
+    position: absolute;
+}
+
+.home{
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+.fishy{
+    position: absolute;
+    left: 50px;
+}
+
+.fish{
+    position: absolute;
+    left: 50px;
+    top: 350px;
+}
+
+.Specs{
+    position: absolute;
+    left: 50px;
+    top: 830px;
+    
+}
+
+.Bugs{
+    position: absolute;
+    left: 50px;
+    top: 590px;
+}
+
+.Extra{
+    position: absolute;
+    left: 50px;
+    top: 1070px;
+}
+
+.extra2{
+    position: absolute;
+    left: 50x;
+    top: 1310px;
+}
+
+.Pie{
+    position: absolute;
+    left: 50px;
+    top: 1550px;
+}
+
+.Drink{
+    position: absolute;
+    left: 55px;
+    top: 1790px;
+}
+
+.infant{
+    position: absolute;
+    top: 2010px;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+}
+}
